@@ -39,6 +39,11 @@ variable "vm_name" {
     description = "Sunucu Adı:"
 }
 
+variable "computer_name" {
+    
+    type        = string
+    description = "Comp.Name:*"
+}
 
 variable "vm_description" {
     type        = string
@@ -107,6 +112,12 @@ variable "vm2_name" {
     description = "2.Sunucu Adı:"
 }
 
+variable "computer_name2" {
+    
+    type        = string
+    description = "2.Comp.Name:*"
+}
+
 
 variable "vm2_description" {
     type        = string
@@ -163,6 +174,11 @@ variable "vm3_name" {
     description = "3.Sunucu Adı:"
 }
 
+variable "computer_name3" {
+    
+    type        = string
+    description = "3.Comp.Name:*"
+}
 
 variable "vm3_description" {
     type        = string
@@ -219,6 +235,11 @@ variable "vm4_name" {
     description = "4.Sunucu Adı:"
 }
 
+variable "computer_name4" {
+    
+    type        = string
+    description = "4.Comp.Name:*"
+}
 
 variable "vm4_description" {
     type        = string
@@ -274,6 +295,12 @@ variable "vm4_ip" {
 variable "vm5_name" {
     type        = string
     description = "5.Sunucu Adı:"
+}
+
+variable "computer_name5" {
+    
+    type        = string
+    description = "5.Comp.Name:*"
 }
 
 
