@@ -94,7 +94,6 @@ variable "adapter_type" {
     type        = string
     description = "Adapter Type:*"
     default     = "list"
-
 }
     
 
