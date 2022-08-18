@@ -3,6 +3,7 @@ variable "cd_username" {
     type        = string
     description = "vCD UserName*"
 }
+
 variable "cd_password" {
     type        = string
     description = "vCD Password*"
@@ -96,7 +97,6 @@ variable "adapter_type" {
     default     = "list"
 }
     
-
 variable "vm_ip" {
     type        = string
     description = "IP Adresi:*"
@@ -111,7 +111,6 @@ variable "computer_name2" {
     type        = string
     description = "2.Comp.Name:*"
 }
-
 
 variable "vm2_description" {
     type        = string
@@ -130,7 +129,6 @@ variable "vm2_cpu_core" {
     description = "CPU Core:*"
     default     = "list"
 }
-
 
 variable "vm2_memory" {
     type        = string
@@ -156,7 +154,6 @@ variable "template2_name" {
   description = "OS:*"
   default     = "list"
 }
-
 
 variable "vm2_ip" {
     type        = string
@@ -191,7 +188,6 @@ variable "vm3_cpu_core" {
     default     = "list"
 }
 
-
 variable "vm3_memory" {
     type        = string
     description = "Memory:*"
@@ -204,7 +200,6 @@ variable "vm3_disk_size" {
     default     = "list"
 }
 
-
 variable "catalog3_name" {
     type        = string
     description = "Catalog:*"
@@ -216,7 +211,6 @@ variable "template3_name" {
   description = "OS:*"
   default     = "list"
 }
-
 
 variable "vm3_ip" {
     type        = string
@@ -251,7 +245,6 @@ variable "vm4_cpu_core" {
     default     = "list"
 }
 
-
 variable "vm4_memory" {
     type        = string
     description = "Memory:*"
@@ -264,7 +257,6 @@ variable "vm4_disk_size" {
     default     = "list"
 }
 
-
 variable "catalog4_name" {
     type        = string
     description = "Catalog:*"
@@ -276,7 +268,6 @@ variable "template4_name" {
   description = "OS:*"
   default     = "list"
 }
-
 
 variable "vm4_ip" {
     type        = string
@@ -293,7 +284,6 @@ variable "computer_name5" {
     type        = string
     description = "5.Comp.Name:*"
 }
-
 
 variable "vm5_description" {
     type        = string
@@ -313,7 +303,6 @@ variable "vm5_cpu_core" {
     default     = "list"
 }
 
-
 variable "vm5_memory" {
     type        = string
     description = "Memory:*"
@@ -326,7 +315,6 @@ variable "vm5_disk_size" {
     default     = "list"
 }
 
-
 variable "catalog5_name" {
     type        = string
     description = "Catalog:*"
@@ -338,7 +326,6 @@ variable "template5_name" {
   description = "OS:*"
   default     = "list"
 }
-
 
 variable "vm5_ip" {
     type        = string
